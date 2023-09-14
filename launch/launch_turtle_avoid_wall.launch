@@ -1,0 +1,5 @@
+<launch>
+    <node name="turtle_avoid_wall_node" pkg="my_test_pkg" type="turtle_avoid_wall.py" output="screen"/>
+    <node name="test_node_node" pkg="my_test_pkg" type="my_test_node.py" output="screen"/>
+    <node name="pose_subscruber_node" pkg="my_test_pkg" type="pose_subscriber.py" output="screen"/>
+</launch>
